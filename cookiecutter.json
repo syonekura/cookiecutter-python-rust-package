@@ -1,0 +1,10 @@
+{
+  "full_name": "Sebastian Yonekura",
+  "email": "sebastian.yonekura@example.com",
+  "github_username": "syonekura",
+  "project_name": "Python Rust Package",
+  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "project_short_description": "Python Rust package contains all the boilerplate you need to create a Python package with Rust bindings.",
+  "pypi_username": "{{ cookiecutter.github_username }}",
+  "version": "0.0.1"
+}
