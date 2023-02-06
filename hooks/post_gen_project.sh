@@ -8,6 +8,5 @@ git add .
 git commit -m "Generate project with Cookiecutter"
 
 
-source $(poetry env info --path)/bin/activate
-maturin develop
-pytest
+poetry run maturin develop
+poetry run pytest --cov
