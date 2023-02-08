@@ -34,6 +34,7 @@ name = "{{ cookiecutter.project_slug }}"
 
 
 [tool.pytest.ini_options]
+addopts = "-v"
 testpaths = [
     "python"
 ]

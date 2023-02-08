@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "cookiecutter-python-rust-package"
+version = "0.1.0"
+description = ""
+authors = ["Sebastian Yonekura <sebastian.yonekura@gmail.com>"]
+readme = "README.md"
+packages = [{include = "cookiecutter_python_rust_package"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.2.1"
+pytest-cookies = "^0.6.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
